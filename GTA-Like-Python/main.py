@@ -35,17 +35,17 @@ YpointB = 560
 vitesse = 5
 
 # Chargement du son
-pygame.mixer.music.load("sound/son1.wav")
-son = pygame.mixer.Sound("sound/son1.wav")
-pygame.mixer.fadeout(300)
-son.play()
+#pygame.mixer.music.load("sound/son1.wav")
+#son = pygame.mixer.Sound("sound/son1.wav")
+#pygame.mixer.fadeout(300)
+#son.play()
 
 # Chargement des images de notre menu
 menu_principal = pygame.image.load("img/Menu1.png")
 menu_Jouer = pygame.image.load("img/Menu1-2.png")
 menu_Commande = pygame.image.load("img/Menu2.png")
 commande = pygame.image.load("img/MenuCommande.png")
-menu_Quitter = pygame.image.load("img/menu3.png")
+menu_Quitter = pygame.image.load("img/Menu3.png")
 menu_credit = pygame.image.load("img/Menu5.png")
 credit = pygame.image.load("img/MenuCredit.png")
 menu_Option = pygame.image.load("img/Menu4.png")
